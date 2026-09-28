@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munira - Full-Stack Developer & Data Annotation Specialist</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">Munira</div>
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-mobile" id="mobileMenu">
+                <div class="nav-mobile-content">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-accent">Munira</span>
+                </h1>
+                <p class="hero-subtitle">Full-Stack Developer &amp; Data Annotation Specialist</p>
+                <p class="hero-description">
+                    CS Graduate (June 2026) with hands-on experience building full-stack web applications and specialized training in computer vision data annotation and quality assurance supervision.
+                </p>
+                <button class="cta-btn">
+                    View My Work
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-card">
+                    <p class="about-text">
+                        I'm a Computer Science graduate (June 2026) with a passion for building full-stack web applications and exploring computer vision workflows. My final-year capstone project was <strong>Zemen Bus</strong> — a real-time bus tracking and ticketing system built with Next.js, TypeScript, and a Node.js/PostgreSQL backend.
+                    </p>
+                    <p class="about-text">
+                        Beyond web development, I hold an <strong>Annotate Plus certification</strong> in data annotation and have practical experience labeling datasets in CVAT. I built <strong>MiniAnnotate</strong>, a custom browser-based annotation and supervisor quality-review tool featuring a Football Match Analytics mode — demonstrating my understanding of bounding-box coordinate systems, QA workflows, and dataset export pipelines.
+                    </p>
+                    <p class="about-text">
+                        I thrive in collaborative environments and am always looking to apply my skills to meaningful real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="html">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card" data-skill="css">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card" data-skill="javascript">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card" data-skill="react">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card" data-skill="nextjs">
+                        <i class="fas fa-layer-group"></i>
+                        <span>Next.js</span>
+                    </div>
+                    <div class="skill-card" data-skill="typescript">
+                        <i class="fas fa-code"></i>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skill-card" data-skill="nodejs">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-card" data-skill="tailwind">
+                        <i class="fas fa-wind"></i>
+                        <span>Tailwind CSS</span>
+                    </div>
+                    <div class="skill-card" data-skill="mysql">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-card" data-skill="git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git &amp; GitHub</span>
+                    </div>
+                    <div class="skill-card" data-skill="canvas">
+                        <i class="fas fa-draw-polygon"></i>
+                        <span>Canvas API</span>
+                    </div>
+                    <div class="skill-card" data-skill="cvat">
+                        <i class="fas fa-tag"></i>
+                        <span>CVAT / Annotation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1: Zemen Bus -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./images/todo-image.png" alt="Zemen Bus Tracking System">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Zemen Bus – Tracking &amp; Ticketing System</h3>
+                            <p class="project-description">Final-year capstone project. A full-stack real-time bus tracking and online ticketing platform built with Next.js, TypeScript, Node.js, and PostgreSQL. Features passenger booking, driver management, admin dashboard, and live route tracking.</p>
+                            <div class="project-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                            <div class="project-btns">
+                                <a href="https://github.com/mumira-web/ZEMEN-BUS" class="project-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2: MiniAnnotate -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./images/calc-image.png" alt="MiniAnnotate Tool">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">MiniAnnotate – Image Annotation &amp; QA Review Tool</h3>
+                            <p class="project-description">A browser-based computer vision annotation tool featuring a Football Match Analytics mode (players, goalkeepers, referees, ball). Includes a 3-stage supervisor quality review dashboard (Pending, Approved, Needs Fix), coordinate scaling, LocalStorage persistence, and JSON dataset export.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5 Canvas</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">LocalStorage</span>
+                            </div>
+                            <div class="project-btns">
+                                <a href="https://mumira-web.github.io/miniannotate-image-annotation-tool/" class="project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/mumira-web/miniannotate-image-annotation-tool" class="project-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 3: Calculator -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./images/calc-image.png" alt="Simple Calculator">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Simple Calculator</h3>
+                            <p class="project-description">A basic calculator web app that performs arithmetic operations. Built with HTML, CSS, and JavaScript.</p>
+                            <div class="project-tags">
+                                <span class="tag">CSS</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-btns">
+                                <a href="https://simplecalculatoraa.netlify.app/" class="project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/mumira-web/calculator-app" class="project-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 4: To-Do App -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./images/todo-image.png" alt="Task Management App">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">A to-do list app where users can add and delete tasks. Built with HTML, CSS, and JavaScript.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">HTML</span>
+                            </div>
+                            <div class="project-btns">
+                                <a href="https://strong-hotteok-748a37.netlify.app/" class="project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/mumira-web/todo-app" class="project-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 5: Portfolio -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./images/Screenshot 2025-07-14 110434.png" alt="Portfolio Website">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">A responsive personal portfolio showcasing projects and skills, built with modern CSS and design principles.</p>
+                            <div class="project-tags">
+                                <span class="tag">CSS</span>
+                                <span class="tag">HTML</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-btns">
+                                <a href="https://mportfolio-website.netlify.app/" class="project-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/mumira-web/portfolio-website" class="project-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle">Let's Connect</h3>
+                        <p class="contact-text">
+                            I'm always open to discussing new opportunities, collaborations, or just having a chat about web development and data annotation!
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:munirajemal1000@gmail.com">munirajemal1000@gmail.com</a></span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <span><a href="https://github.com/mumira-web" target="_blank">github.com/mumira-web</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="form-btn">Send Message</button>
+                        </form>
+                        <div id="formMessage" class="form-message"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Munira. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/mumira-web" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:munirajemal1000@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/munira-jemal-330107338/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="./script.js"></script>
+</body>
+</html>
